@@ -1,3 +1,6 @@
+/*Quadrado controlável pelas teclas WSAD. 
+    Posso mudar a cor dele com as teclas 1, 2 e 3. 
+    Bibliotecas para o Mac. */
 #include <GLUT/glut.h>
 #include <OpenGL/gl.h>
 
