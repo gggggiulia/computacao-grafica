@@ -1,3 +1,14 @@
+/*
+1 - Um quadrado se move pela tela com as teclas W, A, S, D.
+- Ao clicar com o botão esquerdo do mouse, o quadrado muda de cor para vermelho.
+- Ao clicar com o botão direito do mouse, o quadrado volta à cor original (azul).
+- Utilize GLUT_LEFT_BUTTON e GLUT_RIGHT_BUTTON e glutPostRedisplay();
+2 - Comente as funções keyboard() e mouse() explicando o que cada linha faz.
+3 - Adapte o código para que:
+- O quadrado aumente de tamanho com a tecla +.
+- Diminua com a tecla -.
+4 - Faça com que o clique do botão do meio reinicie a posição do quadrado para (0,0). */
+
 #include <GL/glut.h>
 #include <stdlib.h>
 
@@ -93,7 +104,7 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(800, 600);
-    glutCreateWindow("Interacao com Teclado - Setas e ESC");
+    glutCreateWindow("Controle de quadrado - Teclado e Mouse");
     
     glutDisplayFunc(desenhaCena);
     
