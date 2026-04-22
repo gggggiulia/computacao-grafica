@@ -1,3 +1,6 @@
+/*Quadrado controlável pelo teclado (pelas setas).
+É possível mudar a cor do quadrado com as teclas 1, 2 e 3.
+O quadrado NÃO pode mais sair dos limites da tela.*/
 #include <GLUT/glut.h>
 #include <OpenGL/gl.h>
 
@@ -71,7 +74,7 @@ int main(int argc, char** argv){
     int mode = GLUT_DOUBLE | GLUT_RGB;
     glutInitDisplayMode(mode);
     glutInitWindowSize(500,500);
-    glutCreateWindow("Círculo para o teclado");
+    glutCreateWindow("Quadrado");
 
     init();
 
