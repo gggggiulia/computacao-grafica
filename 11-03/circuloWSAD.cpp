@@ -1,3 +1,5 @@
+/*Círculo controlável pelas teclas w, s, a, d.
+Bibliotecas para o Mac.*/
 #include <GLUT/glut.h>
 #include <OpenGL/gl.h>
 
