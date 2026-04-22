@@ -71,7 +71,7 @@ int main(int argc, char** argv){
     int mode = GLUT_DOUBLE | GLUT_RGB;
     glutInitDisplayMode(mode);
     glutInitWindowSize(500,500);
-    glutCreateWindow("Círculo para o teclado");
+    glutCreateWindow("Quadrado");
 
     init();
 
